@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="./imgs/logo.svg">
+    <title>BugTrans</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Start Asdie -->
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="imgs/logo.svg" alt="logo" />
+                    <h2>BUG<span>TRANS</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <i class="bx bx-x"></i>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <i class='bx bx-home-alt'></i>
+                    <h3>Главная</h3>
+                </a>
+                <a href="#">
+                    <i class="bx bx-user"></i>
+                    <h3>Сотрудники</h3>
+                </a>
+                <a href="#">
+                    <i class='bx bx-task'></i>
+                    <h3>Задачи</h3>
+                </a>
+                <a href="#">
+                    <i class="bx bx-trending-up"></i>
+                    <h3>Аналитика</h3>
+                </a>
+                <a href="#">
+                    <i class='bx bxs-parking'></i>
+                    <h3>Парковка</h3>
+                </a>
+                <a href="#">
+                    <i class="bx bx-receipt"></i>
+                    <h3>База знаний</h3>
+                </a>
+                <a href="#">
+                    <i class="bx bx-cog"></i>
+                    <h3>Настройки</h3>
+                </a>
+                <a href="#">
+                    <i class="bx bx-exit"></i>
+                    <h3>Выйти</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End Asidie -->
+        <!-- Start Main -->
+        <main>
+            <h1>Главная</h1>
+
+            <div class="date">
+                <input type="date" id="todayDate" />
+            </div>
+
+            <div class="insights">
+
+                <div class="sales">
+                    <div><i class="bx bx-analyse"></i></div>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Статистика задач</h3>
+                            <p>Выполнено: <span>34</span></p>
+                            <p>В работе: <span>2</span></p>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted"> За последние 7 дней </small>
+                </div>
+
+                <div class="income">
+                    <i class="bx bx-line-chart"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>К выполнению</h3>
+                            <div class="to-do">
+                                <div><i class='bx bx-radio-circle'></i>
+                                    <p>Обновить информацию в профиле</p>
+                                </div>
+                                <div><i class='bx bx-radio-circle'></i>
+                                    <p>Узнать о парковке</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted"> За все время </small>
+                </div>
+
+            </div>
+
+            <div class="recent-order">
+                <h2>Мониторинг парковки</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Марка авто</th>
+                            <th>Номер авто</th>
+                            <th>Оплата</th>
+                            <th>Статус очереди</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <a href="#">ещё...</a>
+            </div>
+        </main>
+        <!-- End Main -->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <i class="bx bx-menu"></i>
+                </button>
+                <div class="theme-toggler">
+                    <i class="bx bxs-sun active"></i>
+                    <i class="bx bx-moon"></i>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Добрый день, <b>Олег</b></p>
+                        <small class="text-muted">Директор</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="imgs/profile.jpg" alt="profile" />
+                    </div>
+                </div>
+            </div>
+            <div class="recent-updates">
+                <h2>События</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="imgs/update.png" alt="" />
+                        </div>
+                        <div class="message">
+                            <p>
+                                <b>Сотрудник компании</b> получил новую должность в БугТрансКонтиненталь.
+                            </p>
+                            <small class="text-muted"> 2 минуты назад </small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="imgs/update.png" alt="" />
+                        </div>
+                        <div class="message">
+                            <p>
+                                <b>Сотрудник компании</b> получил новую должность в БугТрансКонтиненталь.
+                            </p>
+                            <small class="text-muted"> 2 минуты назад </small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="imgs/update.png" alt="" />
+                        </div>
+                        <div class="message">
+                            <p>
+                                <b>Сотрудник компании</b> получил новую должность в БугТрансКонтиненталь.
+                            </p>
+                            <small class="text-muted"> 2 минуты назад </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sales-analytics">
+                <h2>Новости</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <i class='bx bx-credit-card-alt'></i>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>СКИДКА <span class="success">10%</span></h3>
+                            <p> при оплате картой банка партнера</p>
+                        </div>
+                        <small class="text-muted"> 1 час назад </small>
+                    </div>
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+                        <i class="bx bxs-shopping-bag-alt"></i>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>СНИЖЕНИЕ ЦЕН <span class="danger">-10%</span></h3>
+                            <p> на топливо за последний месяц</p>
+                        </div>
+                        <small class="text-muted"> 1 час назад </small>
+                    </div>
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+                        <i class="bx bx-user-circle"></i>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>КЭШБЕК <span class="success">5%</span></h3>
+                            <p> в столовой при придъявлении трудовой</p>
+                        </div>
+                        <small class="text-muted"> 1 час назад </small>
+                    </div>
+                </div>
+                <div class="item add-product">
+                    <div>
+                        <i class="bx bx-plus"></i>
+                        <h3>Добавить виджет</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/orders.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
